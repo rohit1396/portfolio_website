@@ -10,7 +10,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   const [dayNight, setDayNight] = useState(false);
   return (
-    <div className="relative w-auto font-bold h-20 bg-stone-50 text-sky-600 ">
+    <div className="z-10 sticky top-0 w-auto font-bold h-20 bg-stone-50 text-sky-600 ">
       <div className="w-full h-full flex justify-around items-center">
         {/* Logo */}
         <div className="w-auto flex justify-center">
