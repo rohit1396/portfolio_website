@@ -65,7 +65,7 @@ const MovieApp = () => {
       {/* Project Img */}
       <div className="w-auto lg:w-2/6 flex justify-center items-center">
         <img
-          src={"publicmovieApp-img.png"}
+          src={"/movieApp-img.png"}
           alt="img"
           className="max-w-72 max-h-56 lg:max-w-sm lg:h-48 cover border border-1 border-slate-800 rounded-2xl"
         />

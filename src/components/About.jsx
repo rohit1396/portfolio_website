@@ -29,7 +29,7 @@ const About = () => {
       </aside>
       <div className="w-auto h-auto md:w-2/5">
         <img
-          src={"public\front-end-development.gif"}
+          src={"/front-end-development.gif"}
           alt="gif_img"
           className="w-auto h-60 sm:h-64 md:h-70 lg:h-auto mx-auto md:w-full object-cover"
         />
