@@ -9,7 +9,10 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <main className="bg-gray-100 w-auto lg:max-w-6xl h-auto mx-auto my-10 flex flex-col rounded-2xl">
+    <main
+      className="bg-gray-100 w-auto lg:max-w-6xl h-auto mx-auto my-10 flex flex-col rounded-2xl"
+      id="skills"
+    >
       {/* Headline */}
       <div className="w-full lg:max-w-6xl h-24 my-5 mx-auto px-5 flex justify-center lg:justify-around items-center">
         <h2 className="w-full md:w-4/6 text-3xl md:text-4xl text-center font-semibold lg:text-5xl lg:font-bold text-sky-600">

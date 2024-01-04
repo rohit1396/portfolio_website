@@ -18,7 +18,7 @@ const Eshop = () => {
     "React",
   ];
   return (
-    <section className="bg-gray-100 w-full lg:max-w-6xl h-full mx-auto my-10 p-3 flex flex-col-reverse lg:flex-row rounded-2xl">
+    <section className="bg-gray-100 w-auto lg:max-w-6xl h-full mx-auto my-10 p-3 flex flex-col-reverse lg:flex-row rounded-2xl">
       <div className="w-auto lg:w-3/5 h-full flex flex-col mx-3">
         <h1 className="text-4xl font-semibold text-sky-600 my-1">
           E-Shop Frontend
@@ -51,12 +51,15 @@ const Eshop = () => {
           })}
         </div>
         <div className="flex max-w-44 h-auto justify-evenly items-center">
-          <span>
+          <a href="https://e-commerce-app-rg.netlify.app/" target="_blank">
             <TbWorld className="text-sky-800 text-3xl font-bold" />
-          </span>
-          <span>
+          </a>
+          <a
+            href="https://github.com/rohit1396/e-commerce-website"
+            target="_blank"
+          >
             <FaGithub className="text-sky-800 text-3xl font-bold" />
-          </span>
+          </a>
         </div>
       </div>
       {/* Project Img */}
@@ -64,7 +67,7 @@ const Eshop = () => {
         <img
           src="public\E-shop-img.png"
           alt="img"
-          className="max-w-sm max-h-56 lg:w-auto lg:h-48 cover border border-1 border-slate-800 rounded-2xl"
+          className="max-w-72 max-h-56 lg:max-w-sm lg:h-48 cover border border-1 border-slate-800 rounded-2xl"
         />
       </div>
     </section>

@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <main className="w-auto h-auto md:h-96 flex flex-col-reverse md:flex-row justify-around items-center mt-10 mx-5 md:mx-10 lg:px-0 mb-20">
+    <main
+      className=" w-auto h-auto md:h-96 flex flex-col-reverse md:flex-row justify-around items-center mt-10 mx-5 md:mx-10 lg:px-0 mb-20"
+      id="about"
+    >
       <aside className="w-auto text-center md:w-2/6 h-auto flex flex-col justify-center md:justify-around md:text-start">
         <h2 className="text-xl md:text-2xl font-semibold text-gray-500 mt-2 ">
           Hi, my name is
@@ -14,7 +17,7 @@ const About = () => {
           {`I have built many personal projects from scratch and am armed with many technological skills useful for tech projects. Check out my projects below. :)`}
         </p>
         <div className="w-auto h-20 flex justify-center md:justify-normal mt-5 text-center">
-          <div className="min-w-36 md:w-1/3 py-1 bg-sky-500 text-slate-100 border rounded-l-3xl">
+          <div className="min-w-36 md:w-1/3 py-1 bg-sky-500  text-slate-100 border rounded-l-3xl">
             <span className="block text-lg md:text-3xl font-bold">7</span>
             <span className="block text-md font-normal">Verified skills</span>
           </div>

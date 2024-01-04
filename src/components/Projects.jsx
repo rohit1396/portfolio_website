@@ -3,10 +3,15 @@ import MovieApp from "./MovieApp";
 import ShoppingCart from "./ShoppingCart";
 import Pagination from "./Pagination";
 import Eshop from "./Eshop";
+import { globalDarkMode } from "../context";
 
 const Projects = () => {
+  const { darkMode } = globalDarkMode();
   return (
-    <main className="w-auto lg:max-w-6xl h-auto mx-auto my-10 flex flex-col">
+    <main
+      className="w-auto lg:max-w-6xl h-auto mx-auto my-10 flex flex-col"
+      id="projects"
+    >
       {/* Project Headline */}
       <div className="w-full lg:max-w-6xl h-24 my-5 mx-auto px-5 flex justify-center lg:justify-around items-center">
         {/* Headline */}
@@ -17,9 +22,9 @@ const Projects = () => {
         <div className="w-3/5 hidden md:flex border border-sky-600 border-2"></div>
       </div>
       <Eshop />
-      {/* <MovieApp />
+      <MovieApp />
       <ShoppingCart />
-      <Pagination /> */}
+      <Pagination />
     </main>
   );
 };
