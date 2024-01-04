@@ -50,7 +50,9 @@ const Navbar = () => {
           >
             <img
               className="w-16 h-16 bg-slate-50 object-cover"
-              src="public\web-developer-digital-avatar-generative-ai_934475-9048.avif"
+              src={
+                "publicweb-developer-digital-avatar-generative-ai_934475-9048.avif"
+              }
               alt="avatar"
             />
           </Link>
