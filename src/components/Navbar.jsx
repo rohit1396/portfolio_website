@@ -2,14 +2,12 @@ import React, { useEffect, useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaMoon } from "react-icons/fa";
-import { FaSun } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from "react-scroll";
+import { SiGmail } from "react-icons/si";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  const [dayNight, setDayNight] = useState(false);
   const [bgNav, setBgNav] = useState(false);
 
   useEffect(() => {
@@ -26,10 +24,6 @@ const Navbar = () => {
       });
     };
   }, []);
-
-  const toggleTheme = () => {
-    setDayNight(!dayNight);
-  };
 
   return (
     <div
@@ -111,11 +105,9 @@ const Navbar = () => {
               </a>
             </span>
             <span>
-              {dayNight ? (
-                <FaSun onClick={toggleTheme} />
-              ) : (
-                <FaMoon onClick={toggleTheme} />
-              )}
+              <a href="mailto:rohitgaikwad726@gmail.com" target="_blank">
+                <SiGmail />
+              </a>
             </span>
           </div>
         </div>
@@ -190,11 +182,9 @@ const Navbar = () => {
             </a>
           </span>
           <span>
-            {dayNight ? (
-              <FaSun onClick={toggleTheme} />
-            ) : (
-              <FaMoon onClick={toggleTheme} />
-            )}
+            <a href="mailto:rohitgaikwad726@gmail.com" target="_blank">
+              <SiGmail />
+            </a>
           </span>
         </div>
       </div>
